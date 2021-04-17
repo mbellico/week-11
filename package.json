@@ -1,0 +1,24 @@
+{
+  "name": "week-11",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "c:/users/\u001b[D\u001b[D\u001b[D\u001b[D\u001b[U\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CUsuario/OneDrive/Escritorio/week-11"
+  },
+  "author": "Melisa D. Bellico",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "loadash": "^1.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
