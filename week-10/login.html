@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="login module">
+    <meta name="author" content="Melisa D. Bellico"/>
+    <link rel="stylesheet" type="text/css" href="./css/reset.css">
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div id="formContainer">
+        <h1 >Login</h1>
+        <form id="formLogin">
+            <label class="form" for="email">Enter your email:</label>
+            <input class = "input" type="email" id="email" name="email" placeholder="username@email.com" required>
+            <span id="emailErrorAlert" class= "loginEmailAlert">Invalid email address.</span>
+            <label class="form"  for="password">Password:</label>
+            <input class = "input" type="password" id="password" name="password"  required>
+            <span id="passErrorAlert" class= "loginPassAlert">Invalid password.</span>
+            <span class="login">
+                <input class= "submit" id= "loginBtn" type="submit" value="Login">
+                <a class="submit" href="register.html" target="_blank">I don't have an account</a>
+            </span>
+        </form>
+    </div>
+    <div id="validationFuntionsLogin">
+    </div>
+    <script src="./js/login-validations.js"></script>
+</body>
+</html>

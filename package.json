@@ -1,24 +1,33 @@
 {
-  "name": "week-11",
+  "name": "automation-testing",
   "version": "0.0.1",
-  "description": "",
+  "description": "testing the login and register forms created in week-10, using WebDriver IO",
   "main": "index.js",
   "scripts": {
+    "test": "npx wdio run ./wdio.conf.js --spec login.js",
     "start": "nodemon index.js",
     "dev": "nodemon index.js"
   },
   "repository": {
-    "type": "git",
-    "url": "c:/users/\u001b[D\u001b[D\u001b[D\u001b[D\u001b[U\u001b[C\u001b[C\u001b[C\u001b[C\u001b[CUsuario/OneDrive/Escritorio/week-11"
+    "type": "github",
+    "url": "https://github.com/mbellico/week-11"
   },
   "author": "Melisa D. Bellico",
   "license": "ISC",
+  "devDependencies": {
+    "@wdio/cli": "^7.5.7",
+    "@wdio/jasmine-framework": "^7.5.3",
+    "@wdio/local-runner": "^7.5.7",
+    "@wdio/spec-reporter": "^7.5.7",
+    "chromedriver": "^90.0.0",
+    "nodemon": "^2.0.7",
+    "jasmine": "^3.7.0",
+    "wdio-chromedriver-service": "^7.0.0"
+  },
   "dependencies": {
+    "@wdio/sync": "^7.5.7",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "loadash": "^1.0.0"
-  },
-  "devDependencies": {
-    "nodemon": "^2.0.7"
   }
 }

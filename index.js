@@ -1,13 +1,24 @@
 const express = require('express');
 const cors = require('cors');
+const path = require('path');
 const app = express();
 const port = 4000;
+
+app.listen(port, () => {
+    console.log(`Server started`)
+})
 app.use(cors());
 app.use(express.json());
 app.use(express.urlencoded({extended:true}));
-app.listen(port, () => {
-    console.log('Example app listening at http://localhost:${port}')
-})
+
+app.use(express.static(path.join(__dirname, 'week-10')));
+app.get('/login', (req,res) => {
+    res.sendFile(path.join(__dirname, 'week-10', 'login.html'))
+});
+app.get('/register', (req, res) => {
+    res.sendFile(path.join(__dirname, 'week-10', 'register.html'))
+});
+
 var handleRegister = function (req, res) {
     console.log(req.body)
     const newUser = {
