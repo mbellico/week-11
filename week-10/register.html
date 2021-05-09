@@ -14,22 +14,22 @@
         <span>
             <a class="toLogin" href="login.html" target="_blank">Login</a>
         </span>
-        <h1 >Register</h1>
+        <h1 id='titleRegister'>Register</h1>
         <form id="formRegister">
             <label class="form" for="fullname">Full name</label>
             <input class = "input" type="text" id="fullName" name="fullname" onfocus="" placeholder ="John Smith" required>
-            <span id="nameErrorAlert" class= "fullNameAlert">"Your full name should only contain letters and a space between them."</span>
+            <span id="nameErrorAlert" class= "fullNameAlert">Your full name should only contain letters and a space between them.</span>
             <label class="form" for="email">Enter your email:</label>
             <input class = "input" type="email" id="email" name="email" placeholder="username@email.com" required>
-            <span id="emailErrorAlert" class= "emailAlert">"Please, provide a valid email address."</span>
+            <span id="emailErrorAlert" class= "emailAlert">Please, provide a valid email address.</span>
             <label class="form"  for="pasword">Password:</label>
             <input class = "input" type="password" id="password" name="password"  required>
-            <span id="passErrorAlert" class = "passwordAlert"> "Must contain at leats 8 characters, both numbers and letters."</span>
+            <span id="passErrorAlert" class = "passwordAlert"> Must contain at leats 8 characters, both numbers and letters.</span>
             <label class="form"  for="pasword">Repeat Password:</label>
             <input class = "input" type="password" id="repeatPassword" name="repeatpassword" required>
             <span id="rPassErrorAlert" class = "repeatPassAlert"> Must provide the same password as the one entered above.</span>
             <span class="login">
-                <input class= "submit" type="Reset" value="Reset">
+                <input class= "submit" id= 'reset' type="Reset" value="Reset">
                 <input class= "submit" id= 'signIn' type="submit" value="Sign In">
             </span>
         </form>

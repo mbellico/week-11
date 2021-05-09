@@ -8,9 +8,10 @@ class LoginPage extends page {
 
     //buttons selectors
     get btnSubmit () { return $('#loginBtn') }
-    get btnNewUser () { return $('.submit Register') }
+    get btnNewUser () { return $('#registerBtn') }
 
     //alerts selectors
+    get alertEmailRequired () {return $('[required]')}
     get alertEmail () {return $('#emailErrorAlert')}
     get alertPassword () {return $('#passErrorAlert')}
     get alertResult () {return $ ('#validationFuntionsLogin')}

@@ -4,7 +4,7 @@
   "description": "testing the login and register forms created in week-10, using WebDriver IO",
   "main": "index.js",
   "scripts": {
-    "test": "npx wdio run ./wdio.conf.js --spec login.js",
+    "test": "npx wdio run ./wdio.conf.js",
     "start": "nodemon index.js",
     "dev": "nodemon index.js"
   },
