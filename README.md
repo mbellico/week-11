@@ -43,8 +43,8 @@ Using **WebDriver IO** to design automated tests for the Login and Register Form
 
 *The package.Json should contain the following script:*
 
-  "scripts": {
-      "test": "npx wdio run ./wdio.conf.js",
-  },
+      "scripts": {
+          "test": "npx wdio run ./wdio.conf.js",
+      },
 
 **To run the WebDriver IO tests, use the command 'npm run test'.-**
