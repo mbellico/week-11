@@ -24,8 +24,8 @@ Uploading the Login and Register Forms created during Week-10 to the server.
 * $ npm start
 
 ## Login and Register Forms  (Once the server was started to run)
-*   [localhost:4000](http://localhost:4000/login)
-*   [localhost:4000](http://localhost:4000/register)
+*   [Login](http://localhost:4000/login)
+*   [Register](http://localhost:4000/register)
 
 # "Become a QA Automation week 14"
 
